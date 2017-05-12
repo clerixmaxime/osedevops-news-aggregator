@@ -29,8 +29,8 @@
           </ul>
           <div class="navbar-form navbar-right" role="search" style="padding-top: 5px">
             <div class="form-group">
-              <input id="greeting_url" type="text" class="form-control" placeholder="http://hello-news-demo.cloudapps.example.com">
-              / <input id="articles_url" type="text" class="form-control" placeholder="http://articles-news-demo.cloudapps.example.com">
+              <input id="greeting_url" type="text" class="form-control" placeholder="http://spring-boot-hello-news-aggregator.router.default.svc.cluster.local">
+              / <input id="articles_url" type="text" class="form-control" placeholder="http://articles-news-aggregator.router.default.svc.cluster.local">
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@
     <script>
     var GREETING_URL = "http://spring-boot-hello-news-aggregator.router.default.svc.cluster.local/";
     var ARTICLES_URL = "http://articles-news-aggregator.router.default.svc.cluster.local/";
-    var FIRSTNAME = "Laurent Rocks ! Thanks for the sample :-)';
+    var FIRSTNAME = "Laurent Rocks ! Thanks for the sample :-)";
 
     $("#greeting_url").blur(function(){
       var value = $("#greeting_url").val();
