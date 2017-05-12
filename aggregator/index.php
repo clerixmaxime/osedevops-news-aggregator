@@ -112,7 +112,7 @@
     <script>
     var GREETING_URL = "http://spring-boot-hello-news-aggregator.router.default.svc.cluster.local/";
     var ARTICLES_URL = "http://articles-news-aggregator.router.default.svc.cluster.local/";
-    var FIRSTNAME = "Laurent Rock ! Thanks for the sample :-)';
+    var FIRSTNAME = "Laurent Rocks ! Thanks for the sample :-)';
 
     $("#greeting_url").blur(function(){
       var value = $("#greeting_url").val();
